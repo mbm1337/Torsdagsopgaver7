@@ -26,6 +26,7 @@ public class TVTest {
         tv1.channelUp();
         assertEquals(1,tv1.channel);
 
+
     }
 
     @Test

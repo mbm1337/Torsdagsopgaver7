@@ -7,7 +7,7 @@ class Chicken extends Animal implements Edible{
 
     @Override
     public String sound() {
-        return "Bork";
+        return "Bok";
     }
 
     @Override

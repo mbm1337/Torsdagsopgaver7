@@ -3,7 +3,7 @@ package Cirkel;
 public class Cirkel {
     double radius;
 
-    public Cirkel(int radius){
+    public Cirkel(double radius){
 
             if (radius > 0) {
                 this.radius = radius;
