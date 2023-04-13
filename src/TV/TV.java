@@ -1,9 +1,11 @@
+package TV;
+
 public class TV {
 
-    boolean isOn;
-    int channel;
+    public boolean isOn;
+    public int channel;
 
-    int volume;
+    public int volume;
 
     public TV() {
         isOn = false;
@@ -12,15 +14,15 @@ public class TV {
 
     }
 
-    void turnOn(){
+    public void turnOn(){
         isOn = true;
     }
 
-    void turnOff(){
+    public void turnOff(){
         isOn = false;
     }
 
-    void setChannel(int channel){
+    public void setChannel(int channel){
         if(isOn) {
             if (channel <= 30)
                 this.channel = channel;
@@ -29,7 +31,7 @@ public class TV {
         }
     }
 
-    void channelUp(){
+    public void channelUp(){
         if (isOn){
             if(channel < 30) {
                 channel++;
@@ -53,7 +55,7 @@ public class TV {
         }
     }
 
-    void setVolume(int volume){
+    public void setVolume(int volume){
         if(isOn) {
             if (volume <= 100)
                 this.volume = volume;
@@ -62,7 +64,7 @@ public class TV {
         }
     }
 
-    void volumeUp(){
+    public void volumeUp(){
         if (isOn){
             if(volume < 100) {
                 volume++;
