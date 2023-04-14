@@ -10,7 +10,7 @@ public class TVTest {
     TV tv2;
 
     @org.junit.jupiter.api.BeforeEach
-    public void setUp() {
+    public void setup() {
         tv1 = new TV();
         tv2 = new TV();
     }
